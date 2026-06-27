@@ -1,2 +1,19 @@
-# stock_market
-Stock market data analysis using Python, focusing on price trends, correlation between price and volume, and anomaly detection.
+# Stock Market Data Analysis
+
+ይህ ፕሮጀክት የአክሲዮን ገበያ መረጃን (Stock Market Dataset) በመጠቀም የተደረገ የትንታኔ ስራ ነው። የፕሮጀክቱ ዋና ዓላማ የዋጋ አዝማሚያዎችን መለየት፣ በዋጋ እና በግብይት መጠን (Volume) መካከል ያለውን ግንኙነት ማጥናት እና ያልተለመዱ ክስተቶችን (Market Anomalies) መለየት ነው።
+
+## የተሰሩ ዋና ዋና ስራዎች (Key Analysis):
+- የዋጋ አዝማሚያ (Trend Analysis): የአክሲዮን መዝጊያ ዋጋ (Close Price) በ60 ቀናት ውስጥ እንዴት እንደተለዋወጠ መተንተን።
+- የስታቲስቲክስ ስሌት: አማካይ ዋጋ፣ እንዲሁም ከፍተኛ እና ዝቅተኛ ዋጋ የተመዘገበባቸውን ቀናት መለየት።
+- የግንኙነት ትንታኔ (Correlation): በዋጋ እና በግብይት መጠን (Volume) መካከል ያለውን ግንኙነት መፈተሽ።
+- ምስላዊ መግለጫ (Visualization): የዋጋ መዋዠቅን በግራፍ ማሳየት።
+
+## ማጠቃለያ (Summary):
+- የዋጋ መዋዠቅ (Price Volatility): በመዝጊያ ዋጋ (Close Price) ላይ የሚታዩት ያልተለመዱ እሴቶች (Outliers)፣ በገበያው ውስጥ በድንገት የሚከሰቱ ለመተንበይ አስቸጋሪ የሆኑ ከፍተኛ የዋጋ ለውጦችን ያመለክታሉ።
+- የግብይት እንቅስቃሴ (Trading Activity): በግብይት መጠን (Volume) ላይ የሚታዩት Outliers፣ አክሲዮኑ በተለመደው የንግድ እንቅስቃሴ ውስጥ ከነበረው ደረጃ በዘለለ ከፍተኛ ወይም ዝቅተኛ እንቅስቃሴ እንደነበረ ያሳያሉ።
+- ማጠቃለያ: እነዚህን መረጃዎች በአንድ ላይ መተንተን፣ በገበያው ውስጥ ያሉ ያልተለመዱ ክስተቶችን (market anomalies) ለመለየት እና ለተጨማሪ ጥናት የሚያነሳሱ ወሳኝ ነጥቦችን እንድናገኝ ያስችለናል።
+
+## ጥቅም ላይ የዋሉ መሳሪያዎች (Tools):
+- Python: ለዳታ ትንታኔ።
+- Pandas: ለዳታ አያያዝ እና ማጽዳት።
+- Matplotlib: ለግራፍ እና ምስላዊ መግለጫዎች።
